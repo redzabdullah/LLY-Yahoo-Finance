@@ -1,13 +1,14 @@
-# LLY-Yahoo-Finance
-# Yahoo Finance LLY Daily Panel
+# LLY Yahoo Finance Daily Price Panel
 
-This repository contains a Google Colab notebook that retrieves daily historical stock price data for Eli Lilly and Company (`LLY`) from Yahoo Finance.
+This repository contains a Google Colab notebook that retrieves daily historical stock price data for Eli Lilly and Company (`LLY`) from Yahoo Finance and transforms it into a firm-date panel for financial analysis.
 
-## Dataset
+## Overview
 
-The notebook creates a firm-date panel from 2020-01-01 to the latest available trading date.
+The notebook uses Python to download daily stock price data beginning from 2020-01-01 through the latest available trading date. The data are cleaned, transformed, and exported as a CSV file.
 
-The exported CSV includes:
+## Variables
+
+The final dataset includes:
 
 - ticker
 - date
@@ -26,13 +27,13 @@ The exported CSV includes:
 - month
 - quarter
 
-## Tools used
+## Tools Used
 
 - Python
+- Google Colab
 - pandas
 - numpy
 - yfinance
-- Google Colab
 - Yahoo Finance
 
 ## Output
