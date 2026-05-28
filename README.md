@@ -42,3 +42,10 @@ The main output file is:
 
 ```text
 lly_daily_panel_2020_latest.csv
+
+
+Notes
+
+The first observation has missing values for daily_return and log_return because there is no prior trading day in the panel for return calculation.
+
+Yahoo Finance data may be revised or updated over time, so results can vary slightly depending on the download date.
